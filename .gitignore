@@ -1,0 +1,74 @@
+
+# =====================================
+# SentimentAI - Git Ignore Configuration
+# =====================================
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# SQLite database (user login information)
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+data/*.db-*
+*.db-journal
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Streamlit cache
+.streamlit/cache/
+
+# TensorFlow and Keras temporary files
+logs/
+tensorboard/
+*.tfevents.*
+
+# Model training checkpoints and temporary files
+checkpoints/
+training_checkpoints/
+
+# Generated reports and temporary outputs
+outputs/temp/
+outputs/cache/
+
+# Build and distribution files
+build/
+dist/
+*.egg-info/
+
+# Coverage reports
+.coverage
+htmlcov/

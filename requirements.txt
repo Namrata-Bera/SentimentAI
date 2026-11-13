@@ -1,0 +1,11 @@
+tensorflow>=2.16,<2.21
+streamlit>=1.35
+nltk>=3.8
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.20
+datasets>=2.19,<5
+pytest>=8
